@@ -1,25 +1,15 @@
-.bottom:not(.child).no-margin {
-  margin-bottom: 0 !important;
-}
-.bottom:not(.child).no-padding {
-  padding-bottom: 0 !important;
-}
-.bottom.child.first.no-margin > * {
-  margin-bottom: 0 !important;
-}
-.bottom.child.first.no-padding > * {
-  padding-bottom: 0 !important;
+.no-margin-top:not(.child), .no-margin-top.first.child > * {
+  margin-top: 0 !important;
 }
 
-.top:not(.child).no-margin {
+.no-margin-bottom:not(.child), .no-margin-bottom.first.child > * {
+  margin-bottom: 0 !important;
+}
+
+.no-padding-top:not(.child), .no-padding-top.first.child > * {
   margin-top: 0 !important;
 }
-.top:not(.child).no-padding {
-  padding-top: 0 !important;
-}
-.top.child.first.no-margin > * {
-  margin-top: 0 !important;
-}
-.top.child.first.no-padding > * {
-  padding-top: 0 !important;
+
+.no-padding-bottom:not(.child), .no-padding-bottom.first.child > * {
+  margin-bottom: 0 !important;
 }
