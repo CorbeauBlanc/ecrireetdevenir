@@ -1,15 +1,32 @@
-.no-margin-bottom {
+.no-margin-bottom:not(.child) {
 	margin-bottom: 0 !important;
 }
 
-.no-margin-top {
+.no-margin-top:not(.child) {
 	margin-top: 0 !important;
 }
 
-.no-padding-bottom {
+.no-padding-bottom:not(.child) {
 	padding-bottom: 0 !important;
 }
 
-.no-padding-top {
+.no-padding-top:not(.child) {
+	padding-top: 0 !important;
+}
+
+
+.no-margin-bottom.first.child>* {
+	margin-bottom: 0 !important;
+}
+
+.no-margin-top.first.child>* {
+	margin-top: 0 !important;
+}
+
+.no-padding-bottom.first.child>* {
+	padding-bottom: 0 !important;
+}
+
+.no-padding-top.first.child>* {
 	padding-top: 0 !important;
 }
