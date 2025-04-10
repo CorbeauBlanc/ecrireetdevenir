@@ -7,9 +7,9 @@
 }
 
 .no-padding-top:not(.child), .no-padding-top.first.child > * {
-  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 .no-padding-bottom:not(.child), .no-padding-bottom.first.child > * {
-  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
