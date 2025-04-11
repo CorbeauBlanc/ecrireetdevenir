@@ -125,3 +125,35 @@
 .lg-padding-right:not(.children), .lg-padding-right.children > * {
   padding-right: 11rem !important;
 }
+
+.no-margin:not(.children), .no-margin.children > * {
+  margin: 0 !important;
+}
+
+.no-padding:not(.children), .no-padding.children > * {
+  padding: 0 !important;
+}
+
+.sm-margin:not(.children), .sm-margin.children > * {
+  margin: 3rem !important;
+}
+
+.sm-padding:not(.children), .sm-padding.children > * {
+  padding: 3rem !important;
+}
+
+.md-margin:not(.children), .md-margin.children > * {
+  margin: 7rem !important;
+}
+
+.md-padding:not(.children), .md-padding.children > * {
+  padding: 7rem !important;
+}
+
+.lg-margin:not(.children), .lg-margin.children > * {
+  margin: 11rem !important;
+}
+
+.lg-padding:not(.children), .lg-padding.children > * {
+  padding: 11rem !important;
+}

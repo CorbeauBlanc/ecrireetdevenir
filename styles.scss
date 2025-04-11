@@ -25,3 +25,16 @@ $positions: "top", "bottom", "left", "right";
 		}
 	}
 }
+
+@each $size, $size-value in $spacing-sizes {
+	@each $type in $spacing-type {
+		.#{$size} {
+			&-#{$type} {
+				&:not(.children),
+				&.children > * {
+					#{$type}: $size-value !important;
+				}
+			}
+		}
+	}
+}
