@@ -15,8 +15,9 @@ $positions: "top", "bottom", "left", "right";
 			.#{$size} {
 				&-#{$type} {
 					&-#{$position} {
-						&:not(.children),
-						&.children > * {
+						#{$type}-#{$position}: $size-value;
+
+						&-children > * {
 							#{$type}-#{$position}: $size-value !important;
 						}
 					}
@@ -30,8 +31,9 @@ $positions: "top", "bottom", "left", "right";
 	@each $type in $spacing-type {
 		.#{$size} {
 			&-#{$type} {
-				&:not(.children),
-				&.children > * {
+				#{$type}: $size-value;
+
+				&-children > * {
 					#{$type}: $size-value !important;
 				}
 			}
