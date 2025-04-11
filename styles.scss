@@ -17,7 +17,12 @@ $positions: "top", "bottom", "left", "right";
 					&-#{$position} {
 						#{$type}-#{$position}: $size-value;
 
-						&-important, &-children > *, &-grand-children > * > * {
+						&-important,
+						&-i,
+						&-children > *,
+						&-ch > *,
+						&-grand-children > * > *,
+						&-g-ch > * > * {
 							#{$type}-#{$position}: $size-value !important;
 						}
 					}
@@ -35,7 +40,12 @@ $positions: "top", "bottom", "left", "right";
 					#{$type}-top: $size-value;
 					#{$type}-bottom: $size-value;
 
-					&-important, &-children > *, &-grand-children > * > * {
+					&-important,
+					&-i,
+					&-children > *,
+					&-ch > *,
+					&-grand-children > * > *,
+					&-g-ch > * > * {
 						#{$type}-top: $size-value !important;
 						#{$type}-bottom: $size-value !important;
 					}
@@ -45,7 +55,12 @@ $positions: "top", "bottom", "left", "right";
 					#{$type}-left: $size-value;
 					#{$type}-right: $size-value;
 
-					&-important, &-children > *, &-grand-children > * > * {
+					&-important,
+					&-i,
+					&-children > *,
+					&-ch > *,
+					&-grand-children > * > *,
+					&-g-ch > * > * {
 						#{$type}-left: $size-value !important;
 						#{$type}-right: $size-value !important;
 					}
@@ -62,7 +77,12 @@ $positions: "top", "bottom", "left", "right";
 			&-#{$type} {
 				#{$type}: $size-value;
 
-				&-important, &-children > *, &-grand-children > * > * {
+				&-important,
+				&-i,
+				&-children > *,
+				&-ch > *,
+				&-grand-children > * > *,
+				&-g-ch > * > * {
 					#{$type}: $size-value !important;
 				}
 			}
