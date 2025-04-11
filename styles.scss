@@ -31,6 +31,35 @@ $positions: "top", "bottom", "left", "right";
 	@each $type in $spacing-type {
 		.#{$size} {
 			&-#{$type} {
+				&-vert {
+					#{$type}-top: $size-value;
+					#{$type}-bottom: $size-value;
+
+					&-important, &-children > * {
+						#{$type}-top: $size-value !important;
+						#{$type}-bottom: $size-value !important;
+					}
+				};
+
+				&-horiz {
+					#{$type}-left: $size-value;
+					#{$type}-right: $size-value;
+
+					&-important, &-children > * {
+						#{$type}-left: $size-value !important;
+						#{$type}-right: $size-value !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@each $size, $size-value in $spacing-sizes {
+	@each $type in $spacing-type {
+		.#{$size} {
+			&-#{$type} {
 				#{$type}: $size-value;
 
 				&-important, &-children > * {
