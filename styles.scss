@@ -1,13 +1,13 @@
 $spacing-sizes: (
 	"no": 0,
-	/* "small": 3rem,
+	"small": 3rem,
 	"medium": 7rem,
-	"large": 11rem */
+	"large": 11rem
 );
 
 $spacing-type: "margin", "padding";
 
-$positions: "top", "bottom";//, "left", "right";
+$positions: "top", "bottom", "left", "right";
 
 @each $size, $size-value in $spacing-sizes {
 	@each $type in $spacing-type {
