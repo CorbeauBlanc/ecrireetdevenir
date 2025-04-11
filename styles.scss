@@ -17,7 +17,7 @@ $positions: "top", "bottom", "left", "right";
 					&-#{$position} {
 						#{$type}-#{$position}: $size-value;
 
-						&-children > *, &-important {
+						&-important, &-children > * {
 							#{$type}-#{$position}: $size-value !important;
 						}
 					}
@@ -33,7 +33,7 @@ $positions: "top", "bottom", "left", "right";
 			&-#{$type} {
 				#{$type}: $size-value;
 
-				&-children > *, &-important {
+				&-important, &-children > * {
 					#{$type}: $size-value !important;
 				}
 			}
