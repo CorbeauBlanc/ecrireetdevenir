@@ -1,15 +1,15 @@
-.no-margin-top:not(.child), .no-margin-top.first.child > * {
+.no-margin-top:not(.children), .no-margin-top.children > * {
   margin-top: 0 !important;
 }
 
-.no-margin-bottom:not(.child), .no-margin-bottom.first.child > * {
+.no-margin-bottom:not(.children), .no-margin-bottom.children > * {
   margin-bottom: 0 !important;
 }
 
-.no-padding-top:not(.child), .no-padding-top.first.child > * {
+.no-padding-top:not(.children), .no-padding-top.children > * {
   padding-top: 0 !important;
 }
 
-.no-padding-bottom:not(.child), .no-padding-bottom.first.child > * {
+.no-padding-bottom:not(.children), .no-padding-bottom.children > * {
   padding-bottom: 0 !important;
 }

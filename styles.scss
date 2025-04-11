@@ -1,31 +1,27 @@
-.no-margin-top {
+$spacing-sizes: (
+	"no": 0,
+	/* "small": 3rem,
+	"medium": 7rem,
+	"large": 11rem */
+);
 
-	&:not(.child),
-	&.first.child > * {
-		margin-top: 0 !important;
-	}
-}
+$spacing-type: "margin", "padding";
 
-.no-margin-bottom {
+$positions: "top", "bottom";//, "left", "right";
 
-	&:not(.child),
-	&.first.child > * {
-		margin-bottom: 0 !important;
-	}
-}
-
-.no-padding-top {
-
-	&:not(.child),
-	&.first.child > * {
-		padding-top: 0 !important;
-	}
-}
-
-.no-padding-bottom {
-
-	&:not(.child),
-	&.first.child > * {
-		padding-bottom: 0 !important;
+@each $size, $size-value in $spacing-sizes {
+	@each $type in $spacing-type {
+		@each $position in $positions {
+			.#{$size} {
+				&-#{$type} {
+					&-#{$position} {
+						&:not(.children),
+						&.children > * {
+							#{$type}-#{$position}: $size-value !important;
+						}
+					}
+				}
+			}
+		}
 	}
 }

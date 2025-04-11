@@ -1,0 +1,19 @@
+{
+  "name": "ecrireetdevenir",
+  "version": "1.0.0",
+  "description": "Empty",
+  "homepage": "https://github.com/CorbeauBlanc/ecrireetdevenir#readme",
+  "bugs": {
+    "url": "https://github.com/CorbeauBlanc/ecrireetdevenir/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CorbeauBlanc/ecrireetdevenir.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "README.md",
+  "scripts": {
+    "build": "sass styles.scss styles.css --no-source-map"
+  }
+}
