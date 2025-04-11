@@ -30,98 +30,98 @@
   padding-right: 0 !important;
 }
 
-.small-margin-top:not(.children), .small-margin-top.children > * {
+.sm-margin-top:not(.children), .sm-margin-top.children > * {
   margin-top: 3rem !important;
 }
 
-.small-margin-bottom:not(.children), .small-margin-bottom.children > * {
+.sm-margin-bottom:not(.children), .sm-margin-bottom.children > * {
   margin-bottom: 3rem !important;
 }
 
-.small-margin-left:not(.children), .small-margin-left.children > * {
+.sm-margin-left:not(.children), .sm-margin-left.children > * {
   margin-left: 3rem !important;
 }
 
-.small-margin-right:not(.children), .small-margin-right.children > * {
+.sm-margin-right:not(.children), .sm-margin-right.children > * {
   margin-right: 3rem !important;
 }
 
-.small-padding-top:not(.children), .small-padding-top.children > * {
+.sm-padding-top:not(.children), .sm-padding-top.children > * {
   padding-top: 3rem !important;
 }
 
-.small-padding-bottom:not(.children), .small-padding-bottom.children > * {
+.sm-padding-bottom:not(.children), .sm-padding-bottom.children > * {
   padding-bottom: 3rem !important;
 }
 
-.small-padding-left:not(.children), .small-padding-left.children > * {
+.sm-padding-left:not(.children), .sm-padding-left.children > * {
   padding-left: 3rem !important;
 }
 
-.small-padding-right:not(.children), .small-padding-right.children > * {
+.sm-padding-right:not(.children), .sm-padding-right.children > * {
   padding-right: 3rem !important;
 }
 
-.medium-margin-top:not(.children), .medium-margin-top.children > * {
+.md-margin-top:not(.children), .md-margin-top.children > * {
   margin-top: 7rem !important;
 }
 
-.medium-margin-bottom:not(.children), .medium-margin-bottom.children > * {
+.md-margin-bottom:not(.children), .md-margin-bottom.children > * {
   margin-bottom: 7rem !important;
 }
 
-.medium-margin-left:not(.children), .medium-margin-left.children > * {
+.md-margin-left:not(.children), .md-margin-left.children > * {
   margin-left: 7rem !important;
 }
 
-.medium-margin-right:not(.children), .medium-margin-right.children > * {
+.md-margin-right:not(.children), .md-margin-right.children > * {
   margin-right: 7rem !important;
 }
 
-.medium-padding-top:not(.children), .medium-padding-top.children > * {
+.md-padding-top:not(.children), .md-padding-top.children > * {
   padding-top: 7rem !important;
 }
 
-.medium-padding-bottom:not(.children), .medium-padding-bottom.children > * {
+.md-padding-bottom:not(.children), .md-padding-bottom.children > * {
   padding-bottom: 7rem !important;
 }
 
-.medium-padding-left:not(.children), .medium-padding-left.children > * {
+.md-padding-left:not(.children), .md-padding-left.children > * {
   padding-left: 7rem !important;
 }
 
-.medium-padding-right:not(.children), .medium-padding-right.children > * {
+.md-padding-right:not(.children), .md-padding-right.children > * {
   padding-right: 7rem !important;
 }
 
-.large-margin-top:not(.children), .large-margin-top.children > * {
+.lg-margin-top:not(.children), .lg-margin-top.children > * {
   margin-top: 11rem !important;
 }
 
-.large-margin-bottom:not(.children), .large-margin-bottom.children > * {
+.lg-margin-bottom:not(.children), .lg-margin-bottom.children > * {
   margin-bottom: 11rem !important;
 }
 
-.large-margin-left:not(.children), .large-margin-left.children > * {
+.lg-margin-left:not(.children), .lg-margin-left.children > * {
   margin-left: 11rem !important;
 }
 
-.large-margin-right:not(.children), .large-margin-right.children > * {
+.lg-margin-right:not(.children), .lg-margin-right.children > * {
   margin-right: 11rem !important;
 }
 
-.large-padding-top:not(.children), .large-padding-top.children > * {
+.lg-padding-top:not(.children), .lg-padding-top.children > * {
   padding-top: 11rem !important;
 }
 
-.large-padding-bottom:not(.children), .large-padding-bottom.children > * {
+.lg-padding-bottom:not(.children), .lg-padding-bottom.children > * {
   padding-bottom: 11rem !important;
 }
 
-.large-padding-left:not(.children), .large-padding-left.children > * {
+.lg-padding-left:not(.children), .lg-padding-left.children > * {
   padding-left: 11rem !important;
 }
 
-.large-padding-right:not(.children), .large-padding-right.children > * {
+.lg-padding-right:not(.children), .lg-padding-right.children > * {
   padding-right: 11rem !important;
 }
