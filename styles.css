@@ -426,3 +426,10 @@
 .carousel-control-next {
   text-decoration: none;
 }
+
+#menu .dropdown-menu {
+  max-width: unset;
+}
+#menu .dropdown-item {
+  white-space: nowrap;
+}
