@@ -96,7 +96,15 @@ $carousel-img-height: 500px;
 	position: unset !important;
 }
 
-.carousel-item > .carousel-img,
-.carousel-item > a > .carousel-img {
-	height: $carousel-img-height;
+.carousel-item {
+
+	& > .carousel-img,
+	& > a > .carousel-img {
+		height: $carousel-img-height;
+	}
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	text-decoration: none;
 }

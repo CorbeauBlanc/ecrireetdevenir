@@ -418,7 +418,11 @@
   position: unset !important;
 }
 
-.carousel-item > .carousel-img,
-.carousel-item > a > .carousel-img {
+.carousel-item > .carousel-img, .carousel-item > a > .carousel-img {
   height: 500px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  text-decoration: none;
 }
