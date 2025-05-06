@@ -9,6 +9,8 @@ $spacing-type: "margin", "padding";
 
 $positions: "top", "bottom", "left", "right";
 
+$carousel-img-height: 500px;
+
 @each $size, $size-value in $spacing-sizes {
 	@each $type in $spacing-type {
 		@each $position in $positions {
@@ -49,7 +51,7 @@ $positions: "top", "bottom", "left", "right";
 						#{$type}-top: $size-value !important;
 						#{$type}-bottom: $size-value !important;
 					}
-				};
+				}
 
 				&-horiz {
 					#{$type}-left: $size-value;
@@ -88,4 +90,13 @@ $positions: "top", "bottom", "left", "right";
 			}
 		}
 	}
+}
+
+.carousel-caption {
+	position: unset !important;
+}
+
+.carousel-item > .carousel-img,
+.carousel-item > a > .carousel-img {
+	height: $carousel-img-height;
 }

@@ -413,3 +413,12 @@
 .lg-padding-important, .lg-padding-i, .lg-padding-children > *, .lg-padding-ch > *, .lg-padding-grand-children > * > *, .lg-padding-g-ch > * > * {
   padding: 11rem !important;
 }
+
+.carousel-caption {
+  position: unset !important;
+}
+
+.carousel-item > .carousel-img,
+.carousel-item > a > .carousel-img {
+  height: 500px;
+}
