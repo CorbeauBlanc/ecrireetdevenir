@@ -442,3 +442,8 @@
 .media-heading {
   font-family: var(--h1-font-family);
 }
+
+h1.view-title {
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+}

@@ -1,3 +1,5 @@
+@use "sass:map";
+
 $spacing-sizes: (
 	"no": 0,
 	"sm": 3rem,
@@ -126,4 +128,9 @@ $carousel-img-height: 500px;
 
 .media-heading {
 	font-family: var(--h1-font-family);
+}
+
+h1.view-title {
+	margin-top: map.get($spacing-sizes, "sm");
+	margin-bottom: map.get($spacing-sizes, "md");
 }
