@@ -433,3 +433,8 @@
 #menu .dropdown-item {
   white-space: nowrap;
 }
+
+.brand-title {
+  font-size: var(--headings-xl);
+  text-decoration: none;
+}
